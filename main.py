@@ -8,7 +8,7 @@ def count_batteries_by_health(present_capacities):
   for capacity in present_capacities:
         if capacity >= 80:
             counts["healthy"] += 1
-        elif 70 <= capacity < 80:
+        elif 62 <= capacity < 80:
             counts["exchange"] += 1
         else:
             counts["failed"] += 1
